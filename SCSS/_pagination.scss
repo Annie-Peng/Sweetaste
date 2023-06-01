@@ -1,0 +1,22 @@
+.page-link{
+    color: $primary;
+    &:active, &:hover{
+        color: white;
+        background-color: $primary;
+    }
+    
+}
+
+.arrow{
+    padding: 16px 18px;
+    &:active, &:hover{
+    color: white;
+    }
+}
+
+.changeQty{
+    padding: 13px 19px;
+    &:active, &:hover{
+        color: white;
+    }
+}

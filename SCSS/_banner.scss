@@ -1,0 +1,47 @@
+.banner{
+    .backdropBlur{
+        width: 260px;
+        height: 256px;
+        background-size: cover;
+        background-position: center center;
+    }
+    .background1{
+        background-image: url(/Picture/p1-2/photo-1490914327627-9fe8d52f4d90.webp);
+    }
+    .background2{
+        background-image: url(/Picture/p1-2/photo-1504114133367-631ecd3db3ca.webp);
+    }
+    .background3{
+        background-image: url(/Picture/p1-2/photo-1499638472904-ea5c6178a300.webp);
+    }
+    li{
+        position:relative;
+    }
+    .bgCover{
+        background: rgba(63, 93, 69, .9);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px); 
+    }
+    span{
+        writing-mode: vertical-lr;
+    }
+    button{
+        color: white;
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%, -50%);
+        &:hover, &:active{
+            background: rgba(255, 225, 128, .9);
+            color: #3f5d45;
+        }
+    }
+}
+
+.homeBanner{
+    max-height: 496px;
+    overflow: hidden;
+    // img{
+    //     transform: translate(0, -156px);
+    // }
+}

@@ -1,0 +1,6 @@
+.dessertContent{
+    writing-mode: vertical-rl;
+    @media (max-width: 991px) {
+        writing-mode: horizontal-tb;
+    }
+}

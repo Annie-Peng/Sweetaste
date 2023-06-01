@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>甜點電商</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./CSS/main.css">
+</head>
+<body>
+
+    <h1 class="lh-0 text-white">Sweetaste</h1>
+    <section class="navbar navbar-expand bg-white py-30 d-none d-lg-block">
+        <div class="container">
+            <a class="navbar-brand" href="https://annie-peng.github.io/Sweetaste/homePage.html"><img src="/Picture/destop/logo/logo-all-dark.svg" alt="Sweetaste" height="24"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 fw-bold d-flex align-items-end">
+                    <li class="nav-item">
+                        <a class="nav-link active text-primary ps-0 pe-60" ari
+                        a-current="page" href="https://annie-peng.github.io/Sweetaste/homePage.html">首頁</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-primary ps-0 pe-60" href="https://annie-peng.github.io/Sweetaste/productList.html">甜點</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-primary ps-0 pe-70" href="https://annie-peng.github.io/Sweetaste/login.html">登入</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link pe-0" href="https://annie-peng.github.io/Sweetaste/shoppingCart.html"><img src="/Picture/destop/icon/shopping_cart.png" alt="shopping_cart"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="navList fixed-top dropdown navbar bg-white d-flex justify-content-between d-block d-lg-none py-30">
+        <div class="container">
+            <button class="btn px-0 py-0" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="/Picture/destop/icon/dehaze-24px.png" alt="navBar" class="bg-white">
+            </button>
+            <a href="https://annie-peng.github.io/Sweetaste/homePage.html"><img src="/Picture/mobile/logo/logotype-sm-dark.svg" alt="Sweetaste" width="114px" height="18px"></a>
+            <a href="https://annie-peng.github.io/Sweetaste/shoppingCart.html"><img src="/Picture/destop/icon/shopping_cart.png" alt="shopping_cart"></a>
+            <ul class="dropdown-menu">
+            <li><a class="dropdown-item text-primary fw-bold" href="https://annie-peng.github.io/Sweetaste/homePage.html" alt="homePage">首頁</a></li>
+            <li><a class="dropdown-item text-primary fw-bold" href="https://annie-peng.github.io/Sweetaste/dessert.html" alt="desset">甜點</a></li>
+            <li><a class="dropdown-item text-primary fw-bold" href="https://annie-peng.github.io/Sweetaste/login.html" alt="login">登入</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="mailInvoice mt-84 mt-lg-0">
+        <div class="container px-0">
+            <div class="row mx-0 justify-content-center align-items-start">
+                <div class="col-12 px-0 col-lg-5 customerLogin bg-primary">
+                    <div class="main px-30 px-lg-40 py-30">
+                        <div class="title d-flex justify-content-between">
+                            <h2 class="text-primary-light text-center fw-bold fs-36">發票</h2>
+                            <div class="content">
+                                <div class="iconPic text-primary-light d-flex justify-content-between mx-auto position-relative">
+                                    <span class="material-icons position-relative">
+                                        check_circle
+                                    </span>
+                                    <span class="material-icons position-relative">
+                                        check_circle
+                                    </span>
+                                    <span class="material-icons position-relative">
+                                        radio_button_checked
+                                    </span>
+                                    <div class="iconLine1 bg-primary-light position-absolute" style="height: 1px"></div>
+                                    <div class="iconLine2 bg-primary-light position-absolute" style="height: 1px"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="selectInvoice d-flex mt-30 text-center">
+                            <a class="bg-primary text-primary-light border border-primary-light w-100 fw-bold fs-20" href="https://annie-peng.github.io/Sweetaste/mailInvoice.html">電子發票</a>
+                            <a class="bg-primary-light text-primary border border-start-0 border-primary-light w-100 fw-bold fs-20" href="https://annie-peng.github.io/Sweetaste/paperInvoice.html">郵寄發票</a>
+                        </div>
+                        <div class="address mt-30 d-flex flex-wrap justify-content-betwee">
+                            <div class="item position-relative w-100">
+                                <h3 class="fs-20 fw-bold text-primary-light">地址</h3>
+                                <div class="checkbox position-absolute">
+                                    <input type="checkbox" class="bg-primary-light rememberMe ms-30">
+                                    <span class="text-primary-light rememberMe fw-bold">同運送地址</span>
+                                </div>
+                            </div>
+                            <div class="item iconInputRight w-50">
+                                <input class="mt-2 w-100" placeholder="高雄市">
+                                <span class="material-symbols-outlined">
+                                    unfold_more
+                                </span>
+                            </div>
+                            <div class="item iconInputRight w-50">
+                                <input class="mt-2 ms-2 w-100" placeholder="新興區">
+                                <span class="material-symbols-outlined">
+                                    unfold_more
+                                </span>
+                            </div>
+                            <div class="item noIconInput w-100">
+                                <input class="mt-2 w-100" placeholder="幸福路 520 號">
+                            </div>
+                        </div>
+                        <div class="taxId mt-3 d-flex flex-wrap">
+                            <h3 class="fs-20 fw-bold text-primary-light w-100">統一編號（選填）</h3>
+                            <div class="item noIconInput w-100">
+                                <input class="mt-2 w-100" placeholder="12345678">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 row mx-0">
+                        <a class="btn btn-cusAccent w-100" href="https://annie-peng.github.io/Sweetaste/success.html">確認結帳</a>
+                    </div>
+                </div>
+                <div class="col-12 px-0 col-lg-4 d-none d-lg-block ms-20 text-primary-dark">
+                    <h2 class="fw-bold fs-4 text-center bg-primary-light py-3">訂單摘要</h2>
+                    <ul class="content py-3 px-20 border border-primary-light">
+                        <li class="fs-6 d-flex justify-content-between">
+                            <h3 class="fs-6">小計</h3>
+                            <p>NT$ 2,700</p>
+                        </li>
+                        <li class="fs-6 d-flex justify-content-between">
+                            <h3 class="fs-6">運費</h3>
+                            <p>NT$ 300</p>
+                        </li>
+                        <li class="fs-20 d-flex justify-content-between fw-bold">
+                            <h3 class="fs-20 fw-bold">總計</h3>
+                            <p>NT$ 3,000</p>
+                        </li>
+                    </ul>
+                    <div class=" mt-20 text-primary-dark">
+                        <h2 class="fw-bold fs-4 text-center bg-primary-light py-3">購物清單</h2>
+                        <ul class="content py-3 px-20 border border-primary-light">
+                            <li class="d-flex justify-content-between align-items-center">
+                                <div class="checkoutCartListPic CartListPic1">
+                                </div>
+                                <div class="checkoutCartListProduct ms-3">
+                                    <div class="checkoutCartListContent text-primary-dark">
+                                        <h3 class="fs-6">焦糖馬卡龍（2）</h3>
+                                        <p class="fs-20">NT$ 900</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center mt-3">
+                                <div class="checkoutCartListPic CartListPic2">
+                                </div>
+                                <div class="checkoutCartListProduct ms-3">
+                                    <div class="checkoutCartListContent text-primary-dark">
+                                        <h3 class="fs-6">焦糖馬卡龍（2）</h3>
+                                        <p class="fs-20">NT$ 900</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center mt-3">
+                                <div class="checkoutCartListPic CartListPic3">
+                                </div>
+                                <div class="checkoutCartListProduct ms-3">
+                                    <div class="checkoutCartListContent text-primary-dark">
+                                        <h3 class="fs-6">焦糖馬卡龍（2）</h3>
+                                        <p class="fs-20">NT$ 900</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="subscribe navbar-expand-lg bg-primary py-30 mt-lg-60">
+        <div class="container">
+            <div class="row justify-content-around align-items-center text-center text-lg-start">
+                <div class="col-12 col-lg-4 vertical-align-middle">
+                    <a class="navbar-brand" href="#"><img src="/Picture/destop/logo/logo-light.svg" alt="Sweetaste" height="40" max-width="40"></a>
+                    <span class="fs-4 text-primary-light" style="vertical-align: middle">訂閱你我的甜蜜郵件</span>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="item d-flex justify-content-lg-end justify-content-center email" role="search">
+                        <div class="iconInputLeft">
+                            <img src="/Picture/destop/icon/mail-24px.png" alt="mail" width="24" height="24">
+                            <input type="email" class="w-100">
+                            <button class="btn btn-cusAccent py-2 px-4" type="submit">→</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer bg-primary-light pt-40 pb-30">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-5 d-flex flex-column justify-content-between">
+                    <div class="flex-grow-1"><img src="/Picture/destop/logo/logotype-lg-dark.svg" alt="Sweetaste" max-width="171" height="27"></div>
+                    <ul class="address text-primary">
+                        <li>07-1234-5678</li>
+                        <li>sweetaste@email.com 800</li>
+                        <li>高雄市新興區幸福路 520 號</li>
+                    </ul>
+                    <div class="icon mt-30">
+                        <img src="/Picture/destop/icon/ic-line@.svg" alt="ic-line" max-width="32" height="32">
+                        <img src="/Picture/destop/icon/ic-facebook.svg" alt="ic-facebook" max-width="32" height="32">
+                    </div>
+                </div>
+                <div class="copyright col-12 col-lg-5 d-flex flex-column justify-content-between align-items-start align-items-lg-end">
+                    <img src="/Picture/destop/quote/sm-今天是個吃甜點的好日子.svg" alt="todayIsAGoodayToEatDessert" max-width="59" height="219" class="d-none d-lg-block">
+                    <p class="text-primary">© 2018 Sweetaste* All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+</body>
+</html>
