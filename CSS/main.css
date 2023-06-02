@@ -3038,7 +3038,7 @@ progress {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  border-radius: 0.25rem;
+  border-radius: 0rem;
   -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3191,7 +3191,7 @@ progress {
   min-height: calc(1.5em + 0.5rem + 2px);
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
-  border-radius: 0.2rem;
+  border-radius: 0rem;
 }
 .form-control-sm::-webkit-file-upload-button {
   padding: 0.25rem 0.5rem;
@@ -3216,7 +3216,7 @@ progress {
   min-height: calc(1.5em + 1rem + 2px);
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
-  border-radius: 0.3rem;
+  border-radius: 0rem;
 }
 .form-control-lg::-webkit-file-upload-button {
   padding: 0.5rem 1rem;
@@ -3257,11 +3257,11 @@ textarea.form-control-lg {
 }
 .form-control-color::-moz-color-swatch {
   height: 1.5em;
-  border-radius: 0.25rem;
+  border-radius: 0rem;
 }
 .form-control-color::-webkit-color-swatch {
   height: 1.5em;
-  border-radius: 0.25rem;
+  border-radius: 0rem;
 }
 
 .form-select {
@@ -3279,7 +3279,7 @@ textarea.form-control-lg {
   background-position: right 0.75rem center;
   background-size: 16px 12px;
   border: 1px solid #ced4da;
-  border-radius: 0.25rem;
+  border-radius: 0rem;
   -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3317,7 +3317,7 @@ textarea.form-control-lg {
   padding-bottom: 0.25rem;
   padding-left: 0.5rem;
   font-size: 0.875rem;
-  border-radius: 0.2rem;
+  border-radius: 0rem;
 }
 
 .form-select-lg {
@@ -3325,7 +3325,7 @@ textarea.form-control-lg {
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   font-size: 1.25rem;
-  border-radius: 0.3rem;
+  border-radius: 0rem;
 }
 
 .form-check {
@@ -3356,7 +3356,7 @@ textarea.form-control-lg {
           color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
-  border-radius: 0.25em;
+  border-radius: 0em;
 }
 .form-check-input[type=radio] {
   border-radius: 50%;
@@ -3669,7 +3669,7 @@ textarea.form-control-lg {
   white-space: nowrap;
   background-color: #e9ecef;
   border: 1px solid #ced4da;
-  border-radius: 0.25rem;
+  border-radius: 0rem;
 }
 
 .input-group-lg > .form-control,
@@ -3678,7 +3678,7 @@ textarea.form-control-lg {
 .input-group-lg > .btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
-  border-radius: 0.3rem;
+  border-radius: 0rem;
 }
 
 .input-group-sm > .form-control,
@@ -3687,7 +3687,7 @@ textarea.form-control-lg {
 .input-group-sm > .btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
-  border-radius: 0.2rem;
+  border-radius: 0rem;
 }
 
 .input-group-lg > .form-select,
@@ -20638,13 +20638,13 @@ textarea.form-control-lg {
   background-position: center center;
 }
 .banner .background1 {
-  background-image: url(/Picture/p1-2/photo-1490914327627-9fe8d52f4d90.webp);
+  background-image: url(../Picture/p1-2/photo-1490914327627-9fe8d52f4d90.webp);
 }
 .banner .background2 {
-  background-image: url(/Picture/p1-2/photo-1504114133367-631ecd3db3ca.webp);
+  background-image: url(../Picture/p1-2/photo-1504114133367-631ecd3db3ca.webp);
 }
 .banner .background3 {
-  background-image: url(/Picture/p1-2/photo-1499638472904-ea5c6178a300.webp);
+  background-image: url(../Picture/p1-2/photo-1499638472904-ea5c6178a300.webp);
 }
 .banner li {
   position: relative;
@@ -23729,7 +23729,7 @@ progress {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  border-radius: 0.25rem;
+  border-radius: 0rem;
   -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -23882,7 +23882,7 @@ progress {
   min-height: calc(1.5em + 0.5rem + 2px);
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
-  border-radius: 0.2rem;
+  border-radius: 0rem;
 }
 .form-control-sm::-webkit-file-upload-button {
   padding: 0.25rem 0.5rem;
@@ -23907,7 +23907,7 @@ progress {
   min-height: calc(1.5em + 1rem + 2px);
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
-  border-radius: 0.3rem;
+  border-radius: 0rem;
 }
 .form-control-lg::-webkit-file-upload-button {
   padding: 0.5rem 1rem;
@@ -23948,11 +23948,11 @@ textarea.form-control-lg {
 }
 .form-control-color::-moz-color-swatch {
   height: 1.5em;
-  border-radius: 0.25rem;
+  border-radius: 0rem;
 }
 .form-control-color::-webkit-color-swatch {
   height: 1.5em;
-  border-radius: 0.25rem;
+  border-radius: 0rem;
 }
 
 .form-select {
@@ -23970,7 +23970,7 @@ textarea.form-control-lg {
   background-position: right 0.75rem center;
   background-size: 16px 12px;
   border: 1px solid #ced4da;
-  border-radius: 0.25rem;
+  border-radius: 0rem;
   -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -24008,7 +24008,7 @@ textarea.form-control-lg {
   padding-bottom: 0.25rem;
   padding-left: 0.5rem;
   font-size: 0.875rem;
-  border-radius: 0.2rem;
+  border-radius: 0rem;
 }
 
 .form-select-lg {
@@ -24016,7 +24016,7 @@ textarea.form-control-lg {
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   font-size: 1.25rem;
-  border-radius: 0.3rem;
+  border-radius: 0rem;
 }
 
 .form-check {
@@ -24047,7 +24047,7 @@ textarea.form-control-lg {
           color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
-  border-radius: 0.25em;
+  border-radius: 0em;
 }
 .form-check-input[type=radio] {
   border-radius: 50%;
@@ -24360,7 +24360,7 @@ textarea.form-control-lg {
   white-space: nowrap;
   background-color: #e9ecef;
   border: 1px solid #ced4da;
-  border-radius: 0.25rem;
+  border-radius: 0rem;
 }
 
 .input-group-lg > .form-control,
@@ -24369,7 +24369,7 @@ textarea.form-control-lg {
 .input-group-lg > .btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
-  border-radius: 0.3rem;
+  border-radius: 0rem;
 }
 
 .input-group-sm > .form-control,
@@ -24378,7 +24378,7 @@ textarea.form-control-lg {
 .input-group-sm > .btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
-  border-radius: 0.2rem;
+  border-radius: 0rem;
 }
 
 .input-group-lg > .form-select,
@@ -41413,43 +41413,43 @@ button {
 }
 
 .dessert1 {
-  background-image: url(/Picture/p1-2/p-2.png);
+  background-image: url(../Picture/p1-2/p-2.png);
 }
 
 .dessert2 {
-  background-image: url(/Picture/p1-2/p-5.png);
+  background-image: url(../Picture/p1-2/p-5.png);
 }
 
 .dessert3 {
-  background-image: url(/Picture/p1-2/photo-1504473089979-b1c4993a9653.webp);
+  background-image: url(../Picture/p1-2/photo-1504473089979-b1c4993a9653.webp);
 }
 
 .dessert4 {
-  background-image: url(/Picture/p3-4/p-1.png);
+  background-image: url(../Picture/p3-4/p-1.png);
 }
 
 .dessert5 {
-  background-image: url(/Picture/p3-4/p-3.png);
+  background-image: url(../Picture/p3-4/p-3.png);
 }
 
 .dessert6 {
-  background-image: url(/Picture/p3-4/p-4.png);
+  background-image: url(../Picture/p3-4/p-4.png);
 }
 
 .dessert7 {
-  background-image: url(/Picture/p3-4/p-6.png);
+  background-image: url(../Picture/p3-4/p-6.png);
 }
 
 .CartListPic1 {
-  background-image: url(/Picture/p7-9_15_17-18/photo-1504855328839-2f4baf9e0fd7.webp);
+  background-image: url(../Picture/p7-9_15_17-18/photo-1504855328839-2f4baf9e0fd7.webp);
 }
 
 .CartListPic2 {
-  background-image: url(/Picture/p7-9_15_17-18//photo-1525203135335-74d272fc8d9c.webp);
+  background-image: url(../Picture/p7-9_15_17-18//photo-1525203135335-74d272fc8d9c.webp);
 }
 
 .CartListPic3 {
-  background-image: url(/Picture/p7-9_15_17-18/photo-1464305795204-6f5bbfc7fb81.webp);
+  background-image: url(../Picture/p7-9_15_17-18/photo-1464305795204-6f5bbfc7fb81.webp);
 }
 
 .cardList .productNav li {
@@ -41595,6 +41595,7 @@ button {
 
 * {
   list-style: none;
+  font-family: "Helvetica Neue", Times, "Noto Sans";
 }
 
 ul {
