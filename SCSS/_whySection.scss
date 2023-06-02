@@ -1,6 +1,18 @@
+.whyHeight {
+    height: auto;
+}
+
 .dessertContent{
     writing-mode: vertical-rl;
-    @media (max-width: 991px) {
+    background-color: $primary-light;
+}
+
+@media (max-width: 991px) {
+    .dessertContent{
         writing-mode: horizontal-tb;
+        background-color: $primary-light;
+    }
+    .whyHeight {
+        height: 420px;
     }
 }

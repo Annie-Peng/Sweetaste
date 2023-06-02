@@ -5,10 +5,14 @@
     h5, p{
         padding: 14px 0px;
     }
-    .tag{
+    .tagText{
         left: 20px;
         top: 0;
         writing-mode: vertical-lr;
+    }
+    .tagFavorite{
+        right: 22px;
+        top: 19px;
     }
 }
 
