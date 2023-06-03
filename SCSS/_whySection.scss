@@ -1,18 +1,18 @@
-.whyHeight {
-    height: auto;
-}
-
 .dessertContent{
-    writing-mode: vertical-rl;
-    background-color: $primary-light;
+    writing-mode: horizontal-tb;
 }
 
-@media (max-width: 991px) {
+.dessertPic{
+    width: 100%;
+}
+
+@include media-breakpoint-up(lg) {
+    .dessertPic{
+        width: 460px;
+    }
     .dessertContent{
-        writing-mode: horizontal-tb;
+        writing-mode: vertical-rl;
         background-color: $primary-light;
     }
-    .whyHeight {
-        height: 420px;
-    }
 }
+

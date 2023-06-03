@@ -1,17 +1,18 @@
 @import 'des-variable';
 @import './boostrap/bootstrap.scss';
 
-//區塊設定
-@import 'banner';
-@import 'whySection';
-
 //共用元件
 @import 'btn';
 @import 'cards';
-@import 'productNav';
 @import 'pagination';
 @import 'textSection';
 @import 'icon';
+@import 'footer';
+
+//區塊設定
+@import 'banner';
+@import 'whySection';
+@import 'productNav';
 
 
 @import 'all';

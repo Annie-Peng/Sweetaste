@@ -8,10 +8,13 @@ ul{
     padding: 0;
 }
 
-.footer{
-    height: 341px;
-    .copyright p{
-        margin-top: 23px;
+.index{
+    ul{
+        overflow-x: scroll;
+        width: 100%;
+        li{
+            width: 100%;
+        }
     }
 }
 
@@ -53,24 +56,6 @@ ul{
     top: 4px;
 }
 
-.success .content{
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    a{
-        margin-top: 51.34px;
-        padding: 17px 102px 15px;
-    }
-    .pic{
-        width: 189px;
-        height: 45px;
-    }
-}
-
-.successBanner>a{
-    padding: 19px 0 13px;
-}
-
 .subscribe{
 
     .email{
@@ -81,6 +66,15 @@ ul{
 
 
 @include media-breakpoint-up(lg) {
+    .index{
+        ul{
+            overflow-x: visible;
+            li{
+                width: 320px;
+            }
+        }
+    }
+
     .linkMedia{
         li:nth-child(n+2){
             border: 0px;
@@ -97,12 +91,6 @@ ul{
         }
         ul, h2{
             color: white;
-        }
-    }
-
-    .footer{
-        .copyright p{
-            margin-top: 0px;
         }
     }
 

@@ -1,18 +1,10 @@
+
 .banner{
     .backdropBlur{
         width: 260px;
-        height: 256px;
+        height: 180px;
         background-size: cover;
         background-position: center center;
-    }
-    .background1{
-        background-image: url(../Picture/p1-2/photo-1490914327627-9fe8d52f4d90.webp);
-    }
-    .background2{
-        background-image: url(../Picture/p1-2/photo-1504114133367-631ecd3db3ca.webp);
-    }
-    .background3{
-        background-image: url(../Picture/p1-2/photo-1499638472904-ea5c6178a300.webp);
     }
     li{
         position:relative;
@@ -38,10 +30,67 @@
     }
 }
 
+.background1{
+    background-image: url(../Picture/p1-2/photo-1490914327627-9fe8d52f4d90.webp);
+}
+.background2{
+    background-image: url(../Picture/p1-2/photo-1504114133367-631ecd3db3ca.webp);
+}
+.background3{
+    background-image: url(../Picture/p1-2/photo-1499638472904-ea5c6178a300.webp);
+}
+.background4{
+    background-image: url(../Picture/p1-2/home_banner.jpg);
+}
+.background5{
+    background-image: url(../Picture/p3-4/banner.png);
+}
+
+.productBanner{
+    background-position: right;
+}
+
 .homeBanner{
-    max-height: 496px;
+    width: 100%;
+    height: 277px;
+    background-size: cover;
     overflow: hidden;
     // img{
     //     transform: translate(0, -156px);
     // }
+}
+
+.success .content{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    a{
+        margin-top: 51.34px;
+        padding: 17px 102px 15px;
+    }
+    .pic{
+        width: 189px;
+        height: 45px;
+    }
+}
+
+.successBanner{
+    width: 100%;
+    height: 518px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../Picture/p11-12/photo-1505935428862-770b6f24f629.webp);
+    >a{
+        padding: 19px 0 13px;
+    }    
+}
+
+@include media-breakpoint-up(lg) {
+
+    .homeBanner, .successBanner{
+        height: 496px;
+    }
+    .backdropBlur{
+        height: 256px;
+    }
 }

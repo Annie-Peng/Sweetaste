@@ -2,7 +2,6 @@
     display: flex;
     position: relative;
     width: 315px;
-    height: 56px;
     img, span{
         position: absolute;
         left: 20px;
@@ -10,6 +9,7 @@
         transform: translate(0,-50%);
     }
     input{
+        height: 56px;
         padding: 16px 0;
         text-indent: 50px;
         background-color: $primary-light;
@@ -23,7 +23,6 @@
     display: flex;
     position: relative;
     width: 316px;
-    height: 56px;
     img, span{
         position: absolute;
         right: 20px;
@@ -31,7 +30,8 @@
         transform: translate(0,-50%);
     }
     input{
-        padding: 16px 0;
+        height: 56px;
+        padding: 17px 0;
         text-indent: 20px;
         background-color: $primary-light;
         border: 0px;

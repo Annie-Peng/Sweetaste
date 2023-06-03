@@ -1,0 +1,13 @@
+.footer{
+    height: 311px;
+}
+
+@include media-breakpoint-up(lg) {
+    .footer{
+        height: 341px;
+        .copyright p{
+            margin-top: 0px;
+        }
+    }
+
+}
